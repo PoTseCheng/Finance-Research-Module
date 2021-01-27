@@ -1,0 +1,12 @@
+ \renewcommand{\arraystretch}{1.2} \begin{tabular}{lcccc}  \midrule \midrule  & \multicolumn{2}{c}{\shortstack{Binary \\ Treatment}} & \multicolumn{2}{c}{\shortstack{Continuous \\ Treatment}} \\  \cmidrule(lr){2-3} \cmidrule(lr){4-5}  & (1) & (2) & (3) & (4) \\  
+ \midrule
+$FasterFlight$      &      -.0188\sym{*}  &      -.0113         &                     &                     \\
+                    &     (.0107)         &     (.0087)         &                     &                     \\
+\addlinespace
+$TimeReduction$     &                     &                     &       .0003         &      -.0001         \\
+                    &                     &                     &     (.0002)         &     (.0002)         \\
+\midrule
+Adj. $R^2$          &        .890         &        .861         &        .890         &        .861         \\
+$F$-Statistic       &       1.465         &        .769         &       1.133         &        .462         \\
+N                   &       5,001         &      10,236         &       5,001         &      10,236         \\
+\midrule Time (Year + Month) FE & Yes & Yes & Yes & Yes \\ Borrower Industry $\times$ Time FE & Yes & Yes & Yes & Yes \\ Borrower $\times$ Lender FE & Yes & Yes & Yes & Yes  \\ Credit Demand Controls & Yes & Yes & Yes & Yes \\ Considered Flights & \small{3 Months} & \small{3 Months} & \small{3 Months} & \small{3 Months} \\ \midrule Lead Arrangers & Yes & No & Yes & No \\ Non-Lead Arrangers & No & Yes & No & Yes \\ \midrule \midrule \end{tabular} \renewcommand{\arraystretch}{1} 
